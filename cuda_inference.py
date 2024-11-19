@@ -5,7 +5,7 @@ import warnings
 from torch.utils.benchmark import Timer
 warnings.filterwarnings("ignore")
 
-def run_inference(prompt, model_path="./", max_length=100):
+def run_inference(prompt, model_path="./Llama-3.2-1B", max_length=100):
     print("\nLoading model and tokenizer...")
     start_time = time.time()
     
